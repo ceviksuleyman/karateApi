@@ -15,4 +15,4 @@ Feature: Demo data driven testing
     Examples:
       | firstname    | job          |
       | "Java"       | QA-Tester    |
-      | 'Javascript' | TestEngineer |
+      | "Javascript" | TestEngineer |
