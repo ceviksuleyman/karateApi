@@ -5,6 +5,7 @@ Feature: Get API
     * header Accept = 'application/json'
 
     # simple Get Request
+  @getDemo1
   Scenario: Get Demo 1
     Given url 'https://reqres.in/api/users?page=2'
     When method GET
@@ -16,6 +17,7 @@ Feature: Get API
     And print responseCookies
 
     # Get with Background
+  @getDemo2
   Scenario: Get Demo 2
     Given path '/users?page=2'
     When method GET
@@ -23,6 +25,7 @@ Feature: Get API
     And print response
 
     # Get with Path , Params
+  @getDemo3
   Scenario: Get Demo 3
     Given path '/users'
     And param page = 2
@@ -31,6 +34,7 @@ Feature: Get API
     And print response
 
   # Get with Assertions
+  @getDemo4
   Scenario: Get Demo 4
     Given path '/users'
     And param page = 2
