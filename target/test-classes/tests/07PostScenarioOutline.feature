@@ -13,6 +13,6 @@ Feature: Demo data driven testing
     And match response.name == <firstname>
 
     Examples:
-      | firstname    | job          |
-      | "Java"       | QA-Tester    |
-      | "Javascript" | TestEngineer |
+      | firstname    | job       |
+      | "Java"       | QA-Tester |
+      | "Javascript" | Developer |

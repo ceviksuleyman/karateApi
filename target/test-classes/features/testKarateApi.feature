@@ -1,4 +1,3 @@
-@test01
 Feature: Sample API Tests
 
   Scenario: Test a Sample GET API
